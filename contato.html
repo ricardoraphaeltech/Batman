@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./contatostyles.css" />
+    <link rel="shortcut icon" href="./Logo_batman.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <img id="logo" src="./Logo_batman.png" />
+        </a>
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div id="banner-contato">
+        <h1 class="title">Contate-nos</h1>
+        <div id="form-container">
+            <form class="form" action="./contato.html">
+
+                <div class="content">
+
+                    <label class="name" for="name">Nome</label>
+                    <input class="input" id="name" type="text" name="name" placeholder="Seu nome" />
+
+                    <label class="last-name" for="last-name">Sobrenome</label>
+                    <input class="input" id="last-name" type="text" name="last-name" placeholder="Seu sobrenome" />
+
+                    <label class="email" for="email">Email</label>
+                    <input class="input" id="email" type="email" name="email" placeholder="Seu email" />
+                    
+                    <label class="tel" for="tel">Telefone</label>
+                    <input class="input" id="tel" type="tel" name="tel" placeholder="(DDD) + número" />
+                
+                    <label class="message" for="message">Mensagem</label>
+                    <textarea class="input" id="message" name="message" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                    
+                    <div class="button-content">
+                        <button class="form-button">Enviar</button>
+                    </div>
+                </div>        
+            
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./Logo_batman.png" />
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por: Ricardo Raphael</span>
+
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
